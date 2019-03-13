@@ -8,7 +8,7 @@ import Inicio from './componentes/Inicio'
 import Servicos from './componentes/Servicos'
 import Portfolio from './componentes/Portfolio'
 import Preco from './componentes/Preco'
-import Contato from './componentes/Contato'
+import Contatos from './componentes/Contatos'
 
 class App extends Component {
   render() {
@@ -20,7 +20,7 @@ class App extends Component {
           <Route path='/servicos' component={Servicos} />
           <Route path='/portfolio' component={Portfolio} />
           <Route path='/preco' component={Preco} />
-          <Route path='/contato' component={Contato} />
+          <Route path='/contatos' component={Contatos} />
           <Rodape />
         </div>
       </BrowserRouter>

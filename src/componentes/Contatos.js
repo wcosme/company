@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Contato = props =>{
+const Contatos = props =>{
     return(
       <div id='contact' className='container-fluid bg-grey'>
       <h2 className='text-center'>CONTACT</h2>
@@ -32,4 +32,4 @@ const Contato = props =>{
     )
 }
 
-export default Contato
+export default Contatos

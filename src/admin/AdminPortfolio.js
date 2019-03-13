@@ -1,15 +1,15 @@
 import React, {Component} from 'react'
 
-class Admin extends Component{
+class AdminPortfolio extends Component{
     constructor(props){
         super(props)
     }
 
     render(){
         return(
-            <h2>Painel Administrativo</h2>
+            <h2>Portfolio - Área Administrativa</h2>
         )
     }
 }
 
-export default Admin
+export default AdminPortfolio

@@ -10,7 +10,7 @@ import Portfolio from './componentes/Portfolio'
 import Preco from './componentes/Preco'
 import Contatos from './componentes/Contatos'
 // Área Administrativa
-import Admin from './componentes/admin/Admin';
+import Admin from './admin/Admin';
 
 class App extends Component {
   render() {
